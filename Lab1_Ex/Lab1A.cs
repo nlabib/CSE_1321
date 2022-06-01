@@ -1,3 +1,11 @@
+/*
+Class: CSE 1321L
+Section: w2
+Term: Summer 2022
+Instructor: Kavitha Muppa
+Name: Nasimul Labib
+Lab#: 1A
+*/ 
 using System;
 // Program Lab1A.cs
 // Demonstrate the difference between Write and WriteLine methods.

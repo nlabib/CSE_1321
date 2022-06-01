@@ -6,19 +6,17 @@ Instructor: Kavitha Muppa
 Name: Nasimul Labib
 Lab#: 1A
 */ 
-// Program Lab1B.java
+using System;
+// Program Lab1B.cs
 // Demonstrate reading a string from the user.
-import java.util.Scanner;
 public class Lab1B
 {
  // Reads a character string from the user and prints it.
- public static void main (String[] args)
+ public static void Main (String[] args)
  {
  String message;
- Scanner scan = new Scanner (System.in);
- System.out.print ("Enter a line of text: ");
- message = scan.nextLine();
- System.out.println ("You wrote \' " + message + "\'");
+ Console.Write("Enter a line of text: ");
+ message = Console.ReadLine();
+ Console.WriteLine("You wrote'" + message + "'");
  }
 } 
-

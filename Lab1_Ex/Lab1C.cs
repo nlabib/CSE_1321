@@ -6,24 +6,22 @@ Instructor: Kavitha Muppa
 Name: Nasimul Labib
 Lab#: 1A
 */ 
-// Program Lab1C.java
-// Demonstrate the use of the Scanner class to read numeric data.
-import java.util.Scanner;
+using System;
+// Program Lab1C.cs
 public class Lab1C
 {
  // Calculates fuel efficiency based on values entered by the user.
- public static void main (String[] args)
+ public static void Main (String[] args)
  {
  int miles;
  double gallons, mpg;
- Scanner scan = new Scanner (System.in);
- System.out.print ("Enter the number of miles: ");
- miles = scan.nextInt();
+ Console.Write ("Enter the number of miles: ");
+ miles = Convert.ToInt32(Console.ReadLine());
 
- System.out.print ("Enter the gallons of fuel used: ");
- gallons = scan.nextDouble();
+ Console.Write ("Enter the gallons of fuel used: ");
+ gallons = Convert.ToInt32(Console.ReadLine());
 
  mpg = miles / gallons;
- System.out.println ("Miles Per Gallon: " + mpg);
+ Console.WriteLine ("Miles Per Gallon: " + mpg);
  }
-}
+} 
