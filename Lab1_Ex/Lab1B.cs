@@ -15,8 +15,9 @@ public class Lab1B
  public static void Main (String[] args)
  {
  String message;
+ 
  Console.Write("Enter a line of text: ");
  message = Console.ReadLine();
- Console.WriteLine("You wrote'" + message + "'");
+ Console.WriteLine("You wrote \'" + message + "\'");
  }
 } 
