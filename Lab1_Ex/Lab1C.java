@@ -1,10 +1,10 @@
 /*
 Class: CSE 1321L
-Section: ...
+Section: w2
 Term: Summer 2022
-Instructor: ...
+Instructor: Kavitha Muppa
 Name: Nasimul Labib
-Lab#: 1C
+Lab#: 1A
 */ 
 // Program Lab1C.java
 // Demonstrate the use of the Scanner class to read numeric data.

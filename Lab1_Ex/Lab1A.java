@@ -1,8 +1,8 @@
 /*
 Class: CSE 1321L
-Section: ...
+Section: w2
 Term: Summer 2022
-Instructor: ...
+Instructor: Kavitha Muppa
 Name: Nasimul Labib
 Lab#: 1A
 */ 

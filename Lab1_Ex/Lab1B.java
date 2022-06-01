@@ -1,13 +1,11 @@
 /*
 Class: CSE 1321L
-Section: ...
+Section: w2
 Term: Summer 2022
-Instructor: ...
+Instructor: Kavitha Muppa
 Name: Nasimul Labib
-Lab#: 1B
+Lab#: 1A
 */ 
-
-
 // Program Lab1B.java
 // Demonstrate reading a string from the user.
 import java.util.Scanner;
