@@ -28,8 +28,6 @@ public static void main(String[] args) {
 
 
 	System.out.println("Once upon a time, there was a person named " + name + " who had a child named " + name2 + "." + " This child would " + verb + " " + adverb + " while singing to strangers.");
-	System.out.println("Once upon a time, there was a person named Tiffany who had a child named Bubba. This child would eat wickedly while singing to strangers. ");
-
 
 }
 }
