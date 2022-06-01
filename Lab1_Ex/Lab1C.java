@@ -1,3 +1,11 @@
+/*
+Class: CSE 1321L
+Section: ...
+Term: Summer 2022
+Instructor: ...
+Name: Nasimul Labib
+Lab#: 1C
+*/ 
 // Program Lab1C.java
 // Demonstrate the use of the Scanner class to read numeric data.
 import java.util.Scanner;
@@ -15,7 +23,7 @@ public class Lab1C
  System.out.print ("Enter the gallons of fuel used: ");
  gallons = scan.nextDouble();
 
- mpg = miles * gallons;
+ mpg = miles / gallons;
  System.out.println ("Miles Per Gallon: " + mpg);
  }
 }

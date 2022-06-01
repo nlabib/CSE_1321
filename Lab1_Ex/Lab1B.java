@@ -1,3 +1,13 @@
+/*
+Class: CSE 1321L
+Section: ...
+Term: Summer 2022
+Instructor: ...
+Name: Nasimul Labib
+Lab#: 1B
+*/ 
+
+
 // Program Lab1B.java
 // Demonstrate reading a string from the user.
 import java.util.Scanner;
@@ -10,6 +20,7 @@ public class Lab1B
  Scanner scan = new Scanner (System.in);
  System.out.print ("Enter a line of text: ");
  message = scan.nextLine();
- System.out.println ("You wrote'" + message + "'");
+ System.out.println ("You wrote \' " + message + "\'");
  }
 } 
+
