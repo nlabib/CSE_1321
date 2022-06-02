@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 	public class Assignment1B
 	{
-		public static void Main(string[] arg)
+		public Assignment1B()
 		{
 		//Input
-		Console.WriteLine("\n[Tip Calculator]");
+		Console.WriteLine("[Tip Calculator]");
 
 		Console.Write("Enter the total price of the meal: ");
 		double mprice = Convert.ToDouble(Console.ReadLine());
@@ -19,19 +19,18 @@ using System;
 
 		double total_tax = mprice * tax_rate;
 		double subtotal = mprice * dfee;
-		double ten_tip = subtotal * .10;
-		double t_tip = subtotal * .20;
+		double ten_tip = subtotal * (10 / 100);
+		double t_tip = subtotal * (10 / 100);
 
 		double totalten = (ten_tip + subtotal + total_tax);
 		double twentytotal = (t_tip + subtotal + total_tax);
 
 
-	
+
 		// output
-		Console.Write("\n");
 		Console.WriteLine("A 10% tip would be " + ten_tip);
 		Console.WriteLine("The total would be " + totalten);
-		Console.Write("\n");
+
 		Console.WriteLine("A 20% tip would be " + t_tip);
 		Console.WriteLine("The total would be " + twentytotal);
 
