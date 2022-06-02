@@ -1,6 +1,13 @@
+/*
+Class: CSE 1321L
+Section: w2
+Term: Summer 2022
+Instructor: Kavitha Muppa
+Name: Nasimul Labib
+Lab#: Assignment 1A
+*/ 
+
 using System;
-
-
 	class Assignment1A{
 		public static void Main(string[] args){
 			Console.Write("Math Mad Libs");
