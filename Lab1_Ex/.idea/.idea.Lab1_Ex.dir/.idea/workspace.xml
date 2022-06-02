@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd7351ad-b872-48d6-bfbc-8472c6aadcb8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/.vs/Assignment/xs/project-cache/Assignment-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/.vs/Assignment/xs/project-cache/Assignment-Debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/ref/Assignment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/ref/Assignment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/refint/Assignment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment/Assignment/obj/Debug/net6.0/refint/Assignment.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assingment1/Assignment1A.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Assingment1/Assignment1A.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assingment1/Assignment1B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assingment1/Assignment1B.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lab1A.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A091l0TVuaWwO33hcPVreVEUoY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="RunExe" factoryName=".NET Executable" nameIsGenerated="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd7351ad-b872-48d6-bfbc-8472c6aadcb8" name="Changes" comment="" />
+      <created>1654135424755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654135424755</updated>
+      <workItem from="1654135429379" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
