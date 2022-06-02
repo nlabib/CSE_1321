@@ -1,0 +1,15 @@
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/bin/Debug/net6.0/Lab1_Ex
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/bin/Debug/net6.0/Lab1_Ex.deps.json
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/bin/Debug/net6.0/Lab1_Ex.runtimeconfig.json
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/bin/Debug/net6.0/Lab1_Ex.dll
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/bin/Debug/net6.0/Lab1_Ex.pdb
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.csproj.AssemblyReference.cache
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.AssemblyInfoInputs.cache
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.AssemblyInfo.cs
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.csproj.CoreCompileInputs.cache
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.dll
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/refint/Lab1_Ex.dll
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.pdb
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/Lab1_Ex.genruntimeconfig.cache
+/Users/nasimullabib/Desktop/CSE_1321/Lab1_Ex/obj/Debug/net6.0/ref/Lab1_Ex.dll

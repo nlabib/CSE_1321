@@ -1,0 +1,15 @@
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.deps.json
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.runtimeconfig.json
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.dll
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/bin/Debug/net6.0/Assignment.pdb
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.csproj.AssemblyReference.cache
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.AssemblyInfoInputs.cache
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.AssemblyInfo.cs
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.csproj.CoreCompileInputs.cache
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.dll
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/refint/Assignment.dll
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.pdb
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/Assignment.genruntimeconfig.cache
+/Users/nasimullabib/Desktop/CSE_1321/Assignment/Assignment/Assignment/obj/Debug/net6.0/ref/Assignment.dll
