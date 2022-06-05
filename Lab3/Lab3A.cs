@@ -6,27 +6,24 @@ Instructor: Kavitha Muppa
 Name: Nasimul Labib
 Lab#: Assignment 3A
 */
-
+// i don't know u have to import
 using System;
+class Program {
+  public static void Main (string[] args) {
+   
+  Console.Write("Amount Owed: ");
+  float mowned = float.Parse(Console.ReadLine());
 
-class Program
-{
-    public static void Main(string[] args)
-    {
-        Console.Write("Amount Owed: ");
-        float amount = 0.000f;
-       	amount =  float.Parse(Console.ReadLine());
+  Console.Write("APR: ");
+  float apr = float.Parse(Console.ReadLine());
 
-        Console.Write("APR: ");
-        float apr = 0.0f;
-        apr = float.Parse(Console.ReadLine());
+  
+  float mpr = (mowned * (apr / 100) / 12);
+  float mp  = (apr / 12);
+  double mp_rounded = Math.Round(mp,3);
+  double mpr_rounded = Math.Round(mpr,2);
 
-        int mpr = (int) (((apr * 1000) / 12) / 1000.0f);
-
-        int minpay = (int) ((amount * (apr/1200)) / 100.0f);
-
-        Console.WriteLine("Monthly Percentage rate : " + mpr);
-     	Console.WriteLine("Minimum payment: " + minpay);
-
- }
+  Console.WriteLine("Monthly percentage rate: " + mp_rounded);   
+  Console.WriteLine("Minium payment: " + mpr_rounded);
+  }
 }
