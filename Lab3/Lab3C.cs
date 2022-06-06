@@ -4,7 +4,7 @@ Section: w2
 Term: Summer 2022
 Instructor: Kavitha Muppa
 Name: Nasimul Labib
-Lab#: Assignment 3B
+Lab#: Assignment 3C
 */
 using System;
 
