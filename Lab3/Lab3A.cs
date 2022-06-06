@@ -11,7 +11,7 @@ using System;
 class Program {
   public static void Main (string[] args) {
    
-  Console.Write("Amount Owed: ");
+  Console.Write("Amount Owed: $");
   float mowned = float.Parse(Console.ReadLine());
 
   Console.Write("APR: ");
@@ -24,6 +24,6 @@ class Program {
   double mpr_rounded = Math.Round(mpr,2);
 
   Console.WriteLine("Monthly percentage rate: " + mp_rounded);   
-  Console.WriteLine("Minium payment: " + mpr_rounded);
+  Console.WriteLine("Minimum payment $" + mpr_rounded);
   }
 }

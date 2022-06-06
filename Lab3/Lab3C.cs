@@ -52,7 +52,9 @@ class Program
     	float cent1 = (float) Math.Round(cent , 2);
     	//Console.WriteLine(cent1);
 
-    	Console.WriteLine("Your total is " + dollar + " dollars and "+ cent1 +  " .");
+    	float cent2 = cent1 * 100;
+
+    	Console.WriteLine("Your total is " + dollar + " dollars and "+ cent2 +  " .");
 
 
 

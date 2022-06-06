@@ -42,8 +42,8 @@ class Program
         double fgpa = Math.Round(gpa, 5);
 
     	Console.WriteLine("");
-    	Console.WriteLine("Total Hours is : " + total_hour);
-    	Console.WriteLine("Total Quality Points is : " + qp);
+    	Console.WriteLine("Total hours is: " + total_hour);
+    	Console.WriteLine("Total Quality Points is: " + qp);
     	Console.WriteLine("Your GPA for this semester is " + fgpa);
         
     	}
