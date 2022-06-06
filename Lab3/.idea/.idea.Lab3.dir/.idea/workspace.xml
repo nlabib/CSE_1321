@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4791b966-5688-40fb-83c9-ba7712269617" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Lab3A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3A.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3A.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3A.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3B.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3B.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3B.exe" afterDir="false" />
-    </list>
+    <list default="true" id="4791b966-5688-40fb-83c9-ba7712269617" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2A8b1bRRiIjex3B8YdOxuDhv42O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,19 +20,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="4791b966-5688-40fb-83c9-ba7712269617" name="Changes" comment="" />
       <created>1654393947412</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654393947412</updated>
       <workItem from="1654393947616" duration="4000" />
+      <workItem from="1654395193348" duration="4000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
