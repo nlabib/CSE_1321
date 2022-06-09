@@ -21,16 +21,13 @@ public class Assignment2A{
 		
 		Console.Write("Calculating...");
 
-		int m = n % n2;
+		int m = n2 % n;
 
-		Console.WriteLine(m);
-		Console.WriteLine(n);
-		Console.WriteLine(n2);
-		int multiple = n2 - m;
-		Console.WriteLine(multiple);
+		int final = n2 - m;
 
 
-		//Console.Write("The nearest multiple of " + n + " from" + n2 + " is");
+
+		Console.Write("The nearest multiple of " + n + " from" + n2 + " is" + final + "!");
 
 
 	}
