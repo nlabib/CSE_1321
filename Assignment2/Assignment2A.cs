@@ -22,10 +22,7 @@ public class Assignment2A{
 		Console.Write("Calculating...");
 
 		int m = n2 % n;
-
 		int final = n2 - m;
-
-
 
 		Console.Write("The nearest multiple of " + n + " from" + n2 + " is" + final + "!");
 
