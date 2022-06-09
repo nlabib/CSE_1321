@@ -39,9 +39,9 @@ class Program
 
     	float gpa = qp / total_hour;
 
-        double fgpa = Math.Round(gpa, 5);
+        double fgpa = Math.Round(gpa, 6);
 
-    	Console.WriteLine("");
+    	Console.WriteLine("\n");
     	Console.WriteLine("Total hours is: " + total_hour);
     	Console.WriteLine("Total Quality Points is: " + qp);
     	Console.WriteLine("Your GPA for this semester is " + fgpa);

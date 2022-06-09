@@ -24,6 +24,6 @@ class Program {
   double mpr_rounded = Math.Round(mpr,2);
 
   Console.WriteLine("Monthly percentage rate: " + mp_rounded);   
-  Console.WriteLine("Minimum payment $" + mpr_rounded);
+  Console.WriteLine("Minimum payment: $" + mpr_rounded);
   }
 }

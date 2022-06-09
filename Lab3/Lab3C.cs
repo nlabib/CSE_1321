@@ -21,22 +21,22 @@ class Program
     	Console.Write("Enter the number of quarters: ");
     	float q = float.Parse(Console.ReadLine());
     	
-    	Console.Write("Enter the number of quarters: ");
+    	Console.Write("Enter the number of dimes: ");
     	float d = float.Parse(Console.ReadLine());
 
-    	Console.Write("Enter the number of quarters: ");
+    	Console.Write("Enter the number of nickels: ");
     	float n = float.Parse(Console.ReadLine());
 
-    	Console.Write("Enter the number of quarters: ");
+    	Console.Write("Enter the number of pennies: ");
     	float p = float.Parse(Console.ReadLine());
 
     	quarters = quarters * q;
     	dime = dime * d;
     	nickels = nickels * n;
     	pennies = pennies * p;
-
-    	Console.WriteLine("You entered " + q + " Quarters.");
-    	Console.WriteLine("You entered " + d + " dime");
+        Console.WriteLine("");
+    	Console.WriteLine("You entered " + q + " quarters.");
+    	Console.WriteLine("You entered " + d + " dimes.");
     	Console.WriteLine("You entered " + n + " nickels.");
     	Console.WriteLine("You entered " + p + " pennies.");
 
@@ -53,8 +53,8 @@ class Program
     	//Console.WriteLine(cent1);
 
     	float cent2 = cent1 * 100;
-
-    	Console.WriteLine("Your total is " + dollar + " dollars and "+ cent2 +  " .");
+        Console.Write("\n");
+    	Console.WriteLine("Your total is " + dollar + " dollars and "+ cent2 +  " cents.");
 
 
 
