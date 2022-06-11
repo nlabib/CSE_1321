@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{925979D0-89CF-4E10-A4BE-E572C942D921}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignments2/Assignment2A.cs">
+    <Files>
+      <File FileName="Assignments2/Assignment2A.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignments2" expanded="True">
+            <Node name="Assignments2" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assignments2 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
