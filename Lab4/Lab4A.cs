@@ -9,7 +9,7 @@ Lab#: 4A
 
 using System;
 
-public class Assignment2A
+public class Lab4A
 {
 	public static void Main(string[] args)
 	{

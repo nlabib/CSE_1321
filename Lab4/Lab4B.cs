@@ -15,7 +15,36 @@ public class Lab4B
 	{
 
 
+		Console.Write("Enter the day: ");
+		string day = Convert.ToString(Console.ReadLine());
 
+		string dayoftheweek = day.ToUpper();
+
+		switch (dayoftheweek)
+        {
+			case "MONDAY":
+				Console.WriteLine("I have class today!");
+				break;
+			case "TUESDAY":
+				Console.WriteLine("I should use this time to do my homework.");
+				break;
+			case "WEDNESDAY":
+				Console.WriteLine("I have class today!");
+				break;
+			case "THURSDAY":
+				Console.WriteLine("I should use this time to do my homework.");
+				break;
+			case "FRIDAY":
+				Console.WriteLine("It’s Friday! Friday! Gotta get down on Friday!");
+				break;
+			case "SATURDAY":
+				Console.WriteLine("I should use this time to do my homework.");
+				break;
+			case "SUNDAY":
+				Console.WriteLine("I should use this time to do my homework.");
+				break;
+
+		}
 
 	}
 }
