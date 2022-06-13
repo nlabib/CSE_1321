@@ -74,7 +74,7 @@ public class Lab4B
 
         } 
 		*/
-		do {
+		
 			switch (command){
             case 0:
             	Console.WriteLine("The additive inverse of " + num + " is " + additive);
@@ -100,8 +100,7 @@ public class Lab4B
 	        	Console.WriteLine("4- Exit the program");
             	Console.WriteLine("Invalid input, please try again!"); 
             	break;
-		}
-		while (command != 4)
+		
         	
         // if statement
 

@@ -7,21 +7,21 @@ Name: Nasimul Labib
 Lab#: 4A
 */
 
-usingrade System;
+using System;
 
 public class Lab4A
 {
-	public static void Main(stringrade[] argrades)
+	public static void Main(string[] argrades)
 	{
 
 		Console.Write("Enter the score of your exam: ");
-		float graderade = float.Parse(Console.ReadLine());
+		float score = float.Parse(Console.ReadLine());
 		
-		int grade = (int) Math.Round(graderade, 0);
+		int grade = (int) Math.Round(score, 0);
 
 		if (grade >= 98 && grade <= 100)
 		{
-			Console.WriteLine("Letter graderade is: A+");
+			Console.WriteLine("Letter grade is: A+");
 		}
 		else if (grade >= 95 && grade <= 97)
 		{
@@ -66,7 +66,7 @@ public class Lab4A
 		}
 		else if (grade >= 68 && grade <= 70)
 		{
-			Console.WriteLine("Letter graderade is: D");
+			Console.WriteLine("Letter grade is: D");
 		}
 		else if (grade >= 65 && grade <= 67)
 		{
