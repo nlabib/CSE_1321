@@ -11,12 +11,14 @@ using System;
 
 public class Lab4C
 {
+	
+
 	public static void Main(string[] args)
 	{
 
         Console.WriteLine("Welcome!");
         Console.WriteLine("Please input a number: ");
-        double num = Convert.ToDouble(Console.ReadLine());
+        double num = Double.Parse(Console.ReadLine());
 		
         Console.WriteLine("");
         Console.WriteLine("What would you like to do to this number: ");
@@ -39,43 +41,16 @@ public class Lab4C
         double cube = num * num * num;
 
         
-    
+      
 
      
         Console.WriteLine(" ");// Input from the user
         int command = Convert.ToInt32(Console.ReadLine()); // save input
-		/*
-        if (command != 4){
-
-        
-       	 	Console.WriteLine("What would you like to do to this number: ");
-        	Console.WriteLine("0- Get the additive inverse of the number");
-        	Console.WriteLine("1- Get the reciprocal of the number");
-        	Console.WriteLine("2- Square the number");
-        	Console.WriteLine("3- Cube the number");
-        	Console.WriteLine("4- Exit the program");
-
-        	/*
-        	if (command == 0){
-        		Console.WriteLine("The additive inverse of " + num + " is " + additive);
-        	}
-        	else if (command == 1){
-        		Console.WriteLine("The reciprocal of " + num + " is " + reciprocal);
-        	}
-        	else if (command == 2){
-        		Console.WriteLine("The square of " + num + " is " + square);
-        	}
-        	else if (command == 3){
-        		Console.WriteLine("The cube " + num + " is " + cube);
-        	}
-        	
-        	// [The loop]
-
-
-        } 
-		*/
 		
-			switch (command){
+
+		
+			switch (command)
+			{
             case 0:
             	Console.WriteLine("The additive inverse of " + num + " is " + additive);
             	break;
@@ -83,10 +58,10 @@ public class Lab4C
             	Console.WriteLine("The reciprocal of " + num + " is " + reciprocal);
             	break;
             case 2:
-            	Console.WriteLine("The square of " + num + " is " + square);
+            	Console.WriteLine("The square of " + num + ".0 is " + square+ ".0");
             	break;
             case 3:
-            	Console.WriteLine("The cube of " + num + " is " + cube);
+            	Console.WriteLine("The cube of " + num + ".0 is " + cube + ".0");
             	break;
             case 4:
             	Console.WriteLine("Thank you, goodbye!");
@@ -96,9 +71,6 @@ public class Lab4C
             	break;
 		
         	       }
-
-
-
    		}
     } // main 
     //class
