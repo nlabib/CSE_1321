@@ -16,7 +16,7 @@ public class Lab4C
 
         Console.WriteLine("Welcome!");
         Console.WriteLine("Please input a number: ");
-        float num = float.Parse(Console.ReadLine());
+        double num = Convert.ToDouble(Console.ReadLine());
 		
         Console.WriteLine("");
         Console.WriteLine("What would you like to do to this number: ");
@@ -30,16 +30,16 @@ public class Lab4C
 
         // [Calculations]
         // Additive inverse 
-        float additive = num - (2 * num);
+        double additive = num - (2 * num);
         // Reciprocal of the number
-        float reciprocal =  (1 / num);
+        double reciprocal =  (1 / num);
         // Squre the number
-        float square =  num * num;
+        double square =  num * num;
         // Cube the number
-        float cube = num * num * num;
+        double cube = num * num * num;
 
         
-      
+    
 
      
         Console.WriteLine(" ");// Input from the user
