@@ -14,11 +14,6 @@ public class Lab4C
    public static void Main(string[] args)
    {
 
-            
-            float a = 10.0f;
-            Console.WriteLine(a);
 
-            // this is a test
-    }
        }
    
