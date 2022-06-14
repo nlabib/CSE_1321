@@ -9,13 +9,14 @@ Lab#: 4C
 
 using System;
 
-public class Lab4B
+public class Lab4C
 {
    public static void Main(string[] args)
    {
 
-         // beware this ia test
-         
+            
+            float a = 10.0f;
+            Console.WriteLine(a);
     }
        }
    
