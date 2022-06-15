@@ -14,6 +14,8 @@ public class Lab4B
    public static void Main(string[] args)
    {
          // what is the bs is this?
+
+         // fukkkkk
       
          
     } 
