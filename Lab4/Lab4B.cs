@@ -35,7 +35,7 @@ public class Lab4B
 				Console.WriteLine("I should use this time to do my homework.");
 				break;
 			case "FRIDAY":
-				Console.WriteLine("It’s Friday! Friday! Gotta get down on Friday!");
+				Console.WriteLine("It's Friday! Friday! Gotta get down on Friday!");
 				break;
 			case "SATURDAY":
 				Console.WriteLine("I should use this time to do my homework.");

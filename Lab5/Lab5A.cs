@@ -9,13 +9,12 @@ Lab#: 4C
 
 using System;
 
-public class Lab4B
+public class Lab4C
 {
    public static void Main(string[] args)
    {
+
          // what is the bs is this?
       
          
-    } 
-       }
-   
+    } }
