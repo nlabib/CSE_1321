@@ -26,22 +26,22 @@ public class Lab5C
 
       }
       else if(x > 0 && y > 0){
-         Console.WriteLine("This is in the first quadrant.");
+         Console.WriteLine("This point is in the first quadrant.");
       }
       else if(x < 0 && y > 0){
-         Console.WriteLine("This is in the second quadrant.");
+         Console.WriteLine("This point is in the second quadrant.");
       }
       else if (x < 0 && y < 0){
-         Console.WriteLine("This is in the third quadrant.");
+         Console.WriteLine("This point is in the third quadrant.");
       }
       else if (x > 0 && y < 0){
-         Console.WriteLine("This is in the fourth quadrant.");
+         Console.WriteLine("This point is in the fourth quadrant.");
       }
       else if (x == 0){
-         Console.WriteLine("This is on the x axis.");
+         Console.WriteLine("This is on the y axis.");
       }
       else if (y == 0){
-         Console.WriteLine("This is on the y axis.");
+         Console.WriteLine("This is on the x axis.");
       }
       else
       {
