@@ -13,9 +13,7 @@ public class Lab4B
 {
    public static void Main(string[] args)
    {
-
-         // beware this ia test
-         // wil this push
+         // what is the bs is this?
       
          
     } 
