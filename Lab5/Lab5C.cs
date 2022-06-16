@@ -22,7 +22,7 @@ public class Lab5C
 
 
       if (x == 0 && y == 0){
-         Console.WriteLine("This point is the origin.");
+         Console.WriteLine("This point is on the origin.");
 
       }
       else if(x > 0 && y > 0){
@@ -38,10 +38,10 @@ public class Lab5C
          Console.WriteLine("This point is in the fourth quadrant.");
       }
       else if (x == 0){
-         Console.WriteLine("This is on the y axis.");
+         Console.WriteLine("This point is on the y axis.");
       }
       else if (y == 0){
-         Console.WriteLine("This is on the x axis.");
+         Console.WriteLine("This point is on the x axis.");
       }
       else
       {
