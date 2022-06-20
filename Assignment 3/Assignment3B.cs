@@ -4,11 +4,11 @@ Section: w2
 Term: Summer 2022
 Instructor: Kavitha Muppa
 Name: Nasimul Labib
-Lab#: 4C
+Lab#: Assignment3B
 */
 
 using System;
-public class Lab4C {
+public class Assignment3B {
    public static void Main(string[] args)
    {
       Console.WriteLine("[Instructor Scheduler]");
