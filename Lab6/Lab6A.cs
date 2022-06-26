@@ -13,8 +13,9 @@ public class Lab6B
 {
    public static void Main(string[] args)
    {
+      Console.WriteLine("Please enter 10 numbers and this program will display the largets.");
       int n = 0;
-      for (int i = 1; i < 11; i++){
+      for (int i = 1; i < 11; ++i){
          Console.Write("Please enter number " + i + ": ");
          int a = Convert.ToInt32(Console.ReadLine());
          if (n < a){
