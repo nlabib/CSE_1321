@@ -36,13 +36,14 @@ public class Lab6C
                Console.Write("How much would you like to deposit? : ");
                int deposit = Convert.ToInt32(Console.ReadLine());
                balance = balance + deposit;
-               Console.WriteLine(" Your current balance is $ " + balance)         }
+               Console.WriteLine(" Your current balance is $ " + balance);
+                       }
 
          else if(input == 1){
                Console.Write("How much would you like to withdraw? : ");
                int withdraw = Convert.ToInt32(Console.ReadLine());
                balance = balance - withdraw;
-               Console.WriteLine(" Your current balance is $ " + balance)               
+               Console.WriteLine(" Your current balance is $ " + balance);              
          }
 
          else if(input == 2){

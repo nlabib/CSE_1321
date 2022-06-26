@@ -13,7 +13,7 @@ public class Lab6B
 {
    public static void Main(string[] args)
    {
-      Console.WriteLine("Please enter 10 numbers and this program will display the largets.");
+      Console.WriteLine("Please enter 10 numbers and this program will display the largest.");
       int n = 0;
       for (int i = 1; i < 11; ++i){
          Console.Write("Please enter number " + i + ": ");
@@ -22,7 +22,7 @@ public class Lab6B
             n = a;
          }
       }
-   
+     
       Console.WriteLine("The largest number was " + n);
    }
    }

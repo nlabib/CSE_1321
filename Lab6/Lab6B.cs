@@ -14,17 +14,16 @@ public class Lab6B
     public static void Main(string[] args)
     {
 
-
         Random randomnumber = new Random();
         int num = 0;
         int count = 0;
 
-        Console.Write("Enter a number between 1 and 1000: ");
+        Console.Write("Enter a number between 1 and 1000 : ");
         int user = Convert.ToInt32(Console.ReadLine());
 
         while (1 > user || user > 1000)
         {
-            Console.Write("Enter a number between 1 and 1000:");
+            Console.Write("Enter a number between 1 and 1000 : ");
              user = Convert.ToInt32(Console.ReadLine());
 
         }
@@ -58,31 +57,24 @@ public class Lab6B
         else
         {
             min = 0;
-            max = 1001;
+            max = 1000;
         }
 
 
         while (num != user)
         {
-            num = randomnumber.Next(min, max);
-
+            num = randomnumber.Next(min, max)+1;
+            Console.WriteLine("");
             Console.WriteLine("My guess was " + num);
             count++;
             if (num == user)
             {
-                Console.WriteLine("I guessed the number was " + num + " and it only took me " + count + " guesses.");
+
+                Console.WriteLine("\nI guessed the number was " + num + " and it only took me " + count + " guesses.");
 
                 break;
             }
         }
-
-
-
-
-
-
-
-
 
 
 
