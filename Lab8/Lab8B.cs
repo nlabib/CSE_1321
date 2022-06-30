@@ -9,11 +9,11 @@ Lab#: Lab8B
 
 using System;
 
-public class Program
+public class Lab8B
 {
    public static void Main(string[] args)
    {
-        Console.WriteLine("Please enter the numer of rows: "); // I
+        Console.WriteLine("Please enter the number of rows: "); // I
         int r = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Please enter the number of columns: "); // j
         int c = Convert.ToInt32(Console.ReadLine());
@@ -21,6 +21,7 @@ public class Program
         int[,] userinput = new int[r,c]; 
 
             int number = 1;
+        Console.WriteLine("The " + r + "x" + c + " array:\n");
 
         for (int i = 1; i <= userinput.GetLength(0); i++) // row
         {

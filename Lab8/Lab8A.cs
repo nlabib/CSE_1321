@@ -14,7 +14,6 @@ public class Lab8A
    public static void Main(string[] args)
    {
        
-  public static void Main(string[] args) {
 
         int[] input1 = new int[6];
         int[] input2 = new int[6];
@@ -27,8 +26,8 @@ public class Lab8A
             input1[i] = Convert.ToInt32(Console.ReadLine());
 
         }
-        Console.WriteLine("");
-        Console.WriteLine("Please enter 5 integers for the second array: ");
+
+        Console.WriteLine("\nPlease enter 5 integers for the second array: ");
         for(int i = 1; i < input2.Length; i++)
         {
             Console.Write("Integer " + i + ": ");
@@ -37,11 +36,13 @@ public class Lab8A
 
 
 
+
+
     }
 }
 
 
 
-    }
+    
        
    
