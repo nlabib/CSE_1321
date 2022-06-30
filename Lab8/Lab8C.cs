@@ -37,7 +37,7 @@ public class Lab8C
         }
     Console.WriteLine("\nThe " + r + "x" + c+ " 2-D array flattened into a "+sum+ " cell 1-D array: \n"); 
      //1D
-    Console.WriteLine("The " + r + "x" + c + " array:");
+    
 
      for (int i = 1; i <= userinput.GetLength(0); i++) // row
           {

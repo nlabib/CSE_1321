@@ -15,27 +15,39 @@ public class Lab8A
    {
        
 
-        int[] input1 = new int[6];
-        int[] input2 = new int[6];
+        int[] input1 = new int[5];
+        int[] input2 = new int[5];
+        int[] sum = new int[6];
 
+        //1ST ARRAY
         Console.WriteLine("Please enter 5 integers for the first array: ");
-
-        for(int i = 1; i < input1.Length; i++)
+        for(int j =1; j <= 5; j++){
+        for(int i = 0; i < input1.Length; i++)
         {
-            Console.Write("Integer " + i + ": ");
+            Console.Write("Integer " + j + ": ");
             input1[i] = Convert.ToInt32(Console.ReadLine());
+            j++;
 
-        }
+        }}
+        
 
+        //2ND ARRAY
         Console.WriteLine("\nPlease enter 5 integers for the second array: ");
-        for(int i = 1; i < input2.Length; i++)
+        for(int j = 1; j <= 5; ){
+        for(int i = 0; i < input2.Length; i++)
         {
-            Console.Write("Integer " + i + ": ");
+            Console.Write("Integer " + j + ": ");
             input2[i] = Convert.ToInt32(Console.ReadLine());
+            j++;
+
+        }}
+       
+        //SUM
+        Console.Write("\nThe resulting sums are ");
+        for(int i = 0; i < input1.Length; i++){
+            sum[i] = input1[i] + input2[i];
+            Console.Write(sum[i] + " |");
         }
-
-
-
 
 
     }

@@ -13,14 +13,16 @@ public class Lab8B
 {
    public static void Main(string[] args)
    {
-        Console.WriteLine("Please enter the number of rows: "); // I
+        Console.Write("Please enter the number of rows: "); // I
         int r = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Please enter the number of columns: "); // j
+        Console.Write("Please enter the number of columns: "); // j
         int c = Convert.ToInt32(Console.ReadLine());
 
         int[,] userinput = new int[r,c]; 
 
+            int sum = r * c;
             int number = 1;
+        Console.WriteLine("\nI have "+ r + " rows and "+ c + " columns. I need to fill-up " + sum+ " spaces.\n"); 
         Console.WriteLine("The " + r + "x" + c + " array:\n");
 
         for (int i = 1; i <= userinput.GetLength(0); i++) // row
