@@ -14,19 +14,17 @@ public class Lab10B
     public static bool isValid(double a, double b)
     {
         double result = a + b;
-        if (result > 30)
-        {
+        if (result < 30)
+        {   
             return false; // Check if its above 30 or not
         }
         else return true;
     }
-
     public static double area(double a, double b)
     {
         double area = a * b;
         return area;
     }
-
     public static double perimeter(double a, double b)
     {
         double p = 2 * (a) + 2 * (b);
@@ -35,18 +33,18 @@ public class Lab10B
 
     public static void Main(string[] args)
     {
-        double w = 0.0;
+        double w = 30;
         double h = 0.0;
-        bool test = isValid(w, h);
         char input = 'Y';
 
+        bool test = isValid(w, h);
 
         while (test && input == 'Y')
         {
-            Console.WriteLine("Enter width: ");
+            Console.Write("Enter width: ");
             w = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Enter height: ");
+            Console.Write("Enter height: ");
             h = Convert.ToDouble(Console.ReadLine());
 
 
@@ -64,8 +62,8 @@ public class Lab10B
             Console.WriteLine("\nDo you want to enter another width and height (Y/N)? : ");
             input = char.Parse(Console.ReadLine());
             input = char.ToUpper(input);
-            }
-            Console.WriteLine("Program Ends");
+        }
+        Console.WriteLine("Program Ends");
 
 
 
