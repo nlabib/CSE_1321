@@ -11,40 +11,50 @@ using System;
 
 public class Lab11A
 {
-
-    public static string validtester(string password)
+    // Prints out the input according to what the user selects
+    public static String printout(int input)
     {
-        int pass_lenght = password.Length;
-        bool number = false;
-        bool upperletter = false;
-        string index = password;
-        
-        for (int i = 0; i < password.Length; i++)
-        {
-            if (index[i] >= 48 && index[i] <= 57)
-            {
-                number = true;
-            }
-            if (index[i] >= 65 && index[i] <= 90)
-            {
-                upperletter = true;
-            }
-        }
 
-        if (pass_lenght >= 8 && number && upperletter)
+        string r0 = "\nHello!";
+        string r1 = "\nOk, Bye.";
+        string r2 = "\nWHOA!";
+
+        if (input == 0)
         {
-            return "Vaild Password";
+            return r0;
         }
-        else return "Invalid Password";
+        else if (input == 1)
+        {
+            return r1;
+        }
+        else if (input == 2)
+        {
+            return r2;
+        }
+        else return "Program Ends";
     }
 
     public static void Main(string[] args)
     {
-        Console.Write("Enter a password: ");
-        string pass = Console.ReadLine();
+        string rerun = "YES";
 
-        Console.WriteLine(validtester(pass));
-        Console.WriteLine("Program Ends.");
+        while (rerun.ToUpper().Equals("YES"))
+        {
+            Console.WriteLine("Menu");
+            Console.WriteLine("0) Hello World");
+            Console.WriteLine("1) Goodbye Moon");
+            Console.WriteLine("2) Walking on Sunshine");
+
+            Console.Write("What would you like to do: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(printout(num));
+
+            Console.Write("Type YES to rerun. ");
+            rerun = Convert.ToString(Console.ReadLine());
+
+        }
+        Console.WriteLine("Program Ends");
     }
 }
 
