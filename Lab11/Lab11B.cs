@@ -4,61 +4,52 @@ Section: w2
 Term: Summer 2022
 Instructor: Kavitha Muppa
 Name: Nasimul Labib
-Lab#: Lab11A
+Lab#: Lab11B
 */
 
 using System;
 
-public class Lab11A
+public class Lab11B
 {
-    // Prints out the input according to what the user selects
-    public static String printout(int input){
 
-    string r0 = "Hello!";
-    string r1 = "Ok, Bye.";
-    string r2 = "WHOA!";
-
-        if (input == 0)
-        {
-            return r0;
-        }
-        else if (input == 1)
-        {
-            return r1;
-        }
-        else if (input == 2)
-        {
-            return r2;
-        }
-        else return "Program Ends";
-}
-
-public static void Main(string[] args)
-{
-        string rerun = "YES";
+    public static string validtester(string password)
+    {
+        int pass_lenght = password.Length;
+        bool number = false;
+        bool upperletter = false;
+        string index = password;
         
-        while (rerun.ToUpper().Equals("YES"))
+        for (int i = 0; i < password.Length; i++)
         {
-            Console.WriteLine("Menu");
-            Console.WriteLine("0 - Hello World");
-            Console.WriteLine("1 - Goodbye Moon");
-            Console.WriteLine("2 - Walking on Sunshine");
-
-            Console.Write("What would you like to do: ");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine(printout(num));
-
-            Console.Write("Type YES to rerun. ");
-            rerun = Convert.ToString(Console.ReadLine());
-
+            if (index[i] >= 48 && index[i] <= 57)
+            {
+                number = true;
+            }
+            if (index[i] >= 65 && index[i] <= 90)
+            {
+                upperletter = true;
+            }
         }
-        Console.WriteLine("Program Ends");
+
+        if (pass_lenght >= 8 && number && upperletter)
+        {
+            return "Vaild Password";
+        }
+        else return "Invalid Password";
+    }
+
+    public static void Main(string[] args)
+    {
+        Console.Write("Enter a password: ");
+        string pass = Console.ReadLine();
+
+        Console.WriteLine(validtester(pass));
+        Console.WriteLine("Program Ends.");
     }
 }
 
 
 
 
-       
-   
+
+
