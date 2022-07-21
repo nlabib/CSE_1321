@@ -48,6 +48,7 @@ public class Assignment6A
             else if(numberlist[mid] == target)
             {
                 break;
+                
             }
         }
         return guess;
