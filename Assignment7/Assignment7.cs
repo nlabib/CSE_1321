@@ -16,9 +16,8 @@ public class AudioCD
    private int releaseYear;
    private string genre;
    private float condition;
-
    
-    // default Constructor
+   // default Constructor
     public  AudioCD()
    {
       cdTitle = " ";
@@ -73,23 +72,20 @@ public class AudioCD
       this.artists[index] = name;
    }
    
-   
+   public string CDNameFinder(string labib)
+   {
+      return "labib";
+   }
 }
-
-
 
 public class Assignment7A
 {
-   //Look for cd name with binary serach
-   public static string Find(string[] nfinder)
-   {
-      
-   }
+   
    public static void Main(string[] args)
    {
       string cdtofind = " ";
       
-      Console.WriteLine("How many CDs do you have lying around your car?");
+      Console.Write("How many CDs do you have lying around your car? ");
       int cdcount = Convert.ToInt32(Console.ReadLine());
       AudioCD[] cd = new AudioCD[cdcount];
 
@@ -99,7 +95,7 @@ public class Assignment7A
       {
          y++;
          Console.Write("CD #" + y);
-         Console.Write("Enter Title: ");
+         Console.Write("\nEnter Title: ");
          string title = Convert.ToString(Console.ReadLine());
 
          Console.Write("Enter Genre: ");
@@ -113,17 +109,6 @@ public class Assignment7A
 
          cd[i] = new AudioCD(title, ryear, genre, conditon);
          }
-
-       string[] cdnamefinder = new string[cd.Length];
-      for (int i = 0; i <= cd.Length; i++)
-      {
-         cdnamefinder[i] = cd[i].GetTitle();
-      }
-
-      string find = Array.Find(cdnamefinder, element => element.StartsWith(cdtofind, StringComparison.Ordinal));
-      
-      
-      
       
       //Loop for Main Menu
       Console.WriteLine("Main Menu");
@@ -134,8 +119,26 @@ public class Assignment7A
       
       Console.WriteLine("Choice: ");
       int choice = Convert.ToInt32(Console.ReadLine());
-      bool logoff = true;
-
+      bool logoff = true; //Sentinal Value for the Loop
+      bool Cdfound = false;
+      
+      cd.
+      
+      
+      
+      //Saves the Cd names to CDnameFinder
+      string[] cdnamefinder = new string[cd.Length];
+      for (int i = 0; i < cd.Length; i++)
+      {
+         cdnamefinder[i] = cd[i].GetTitle();
+         
+      }
+      
+      //Changes CDFound
+      if (find.Equals(cdtofind))
+         Cdfound = true;
+      else
+         Cdfound = false;
       
 
       while (logoff)
@@ -151,8 +154,7 @@ public class Assignment7A
             case 2:
                Console.WriteLine("What is the CD's name? ");
                cdtofind = Convert.ToString(Console.ReadLine());
-               
-               if () // If it is found
+               if (Cdfound) // If it is found
                {
                   Console.WriteLine("There is a match!");
                }
