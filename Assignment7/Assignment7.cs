@@ -8,6 +8,7 @@ Lab#: Assignment7A
 */
 
 using System;using System.Collections;
+using System.Linq.Expressions;
 
 public class AudioCD
 {
@@ -42,9 +43,8 @@ public class AudioCD
    {
       return cdTitle;
    }
-   public float GetCondition
+   public float setCondition
    {
-      get { return condition; }
       set
       {
          if (value < 0.0f || value > 5.0f)
@@ -63,28 +63,43 @@ public class AudioCD
       return releaseYear;
       
    }
+   public float GetCondition()
+   {
+      return condition;
+      
+   }
    public string getArtists(int index)
    {
       return artists[index];
    }
+   
    public void setArtists(int index, string name)
    {
       this.artists[index] = name;
    }
+
    
-   public string CDNameFinder(string labib)
-   {
-      return "labib";
-   }
+   
 }
 
 public class Assignment7A
 {
+   //Linear Search to find the CD and display the Information
+   public static  int FindCD(string[] cdnamefinder1, string CdToFind)
+   {
+      int l = cdnamefinder1.Length;
+      for (int i = 0; i < cdnamefinder1.Length; i++)
+      {
+         if (cdnamefinder1[i] == CdToFind) ;
+         return i; // Show what position the cd is at
+      }
+      return -1;
+   }
+   
    
    public static void Main(string[] args)
    {
       string cdtofind = " ";
-      
       Console.Write("How many CDs do you have lying around your car? ");
       int cdcount = Convert.ToInt32(Console.ReadLine());
       AudioCD[] cd = new AudioCD[cdcount];
@@ -109,70 +124,68 @@ public class Assignment7A
 
          cd[i] = new AudioCD(title, ryear, genre, conditon);
          }
-      
-      //Loop for Main Menu
-      Console.WriteLine("Main Menu");
-      Console.WriteLine("1) Album Info");
-      Console.WriteLine("2) Find a CD");
-      Console.WriteLine("3) Find an artist");
-      Console.WriteLine("4) Log Off");
-      
-      Console.WriteLine("Choice: ");
-      int choice = Convert.ToInt32(Console.ReadLine());
+     
+    
       bool logoff = true; //Sentinal Value for the Loop
       bool Cdfound = false;
-      
-      cd.
-      
-      
       
       //Saves the Cd names to CDnameFinder
       string[] cdnamefinder = new string[cd.Length];
       for (int i = 0; i < cd.Length; i++)
       {
          cdnamefinder[i] = cd[i].GetTitle();
-         
       }
       
-      //Changes CDFound
-      if (find.Equals(cdtofind))
-         Cdfound = true;
-      else
-         Cdfound = false;
       
-
-      while (logoff)
+      //Loop for Main Menu
+      do
       {
+         Console.WriteLine("\nMain Menu");
+         Console.WriteLine("1) Album Info");
+         Console.WriteLine("2) Find a CD");
+         Console.WriteLine("3) Find an artist");
+         Console.WriteLine("4) Log Off");
+         Console.Write("Choice: ");
+         int choice = Convert.ToInt32(Console.ReadLine());
          switch (choice)
          {
             case 1:
-               Console.WriteLine("Which CD do you want");
+               Console.Write("Which CD do you want: ");
                int numcd = Convert.ToInt32(Console.ReadLine());
-               Console.WriteLine("1. "+cd[numcd].GetTitle() + ", " + cd[numcd].GetReleaseYear());
-               Console.WriteLine("Genre" + cd[numcd].GetGenre());
+               numcd -= numcd;
+               int n = numcd + 1;
+               Console.WriteLine( n +". " + cd[numcd].GetTitle() + ", " + cd[numcd].GetReleaseYear());
+               Console.WriteLine("Genre: " + cd[numcd].GetGenre());
                break;
             case 2:
-               Console.WriteLine("What is the CD's name? ");
+               Console.Write("What is the CD's name? ");
                cdtofind = Convert.ToString(Console.ReadLine());
-               if (Cdfound) // If it is found
+               int cdposition = FindCD(cdnamefinder, cdtofind);
+               bool view = true;
+               if (view)  // If it is found
                {
                   Console.WriteLine("There is a match!");
+                  Console.WriteLine(cdposition + ". " + cd[cdposition].GetTitle() + ", " + cd[cdposition].GetReleaseYear());
+                  Console.WriteLine("Genre: " + cd[cdposition].GetTitle());
+                  Console.WriteLine("Conditon: " + cd[cdposition].GetCondition());
+                  view = false;
                }
-               else{Console.WriteLine("Couldn't find it!");}
+               else
+               {
+                  Console.WriteLine("Couldn't find it!");
+                  view = false;
+               }
                break;
             case 3:
                break;
             case 4:
                logoff = false;
                break;
+            default:
+               Console.WriteLine("Invalid Choice");
+               break;
          }
-      }
-
-
-
-
-
-
+      } while (logoff);
 
    }
 }
