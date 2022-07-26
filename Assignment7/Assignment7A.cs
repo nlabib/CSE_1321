@@ -6,9 +6,7 @@ Instructor: Kavitha Muppa
 Name: Nasimul Labib
 Lab#: Assignment7A
 */
-
-using System;using System.Collections;
-using System.Linq.Expressions;
+using System;
 
 public class AudioCD
 {
@@ -25,7 +23,7 @@ public class AudioCD
       releaseYear = 1980;
       genre = " ";
       condition = 0.0f;
-     //artists [] = {" ", " ", " ", " "};
+     artists = new string[4] {" ", " ", " ", " "};
    }
    
    // OverloadedConstructor
@@ -72,7 +70,6 @@ public class AudioCD
    {
       return artists[index];
    }
-   
    public void setArtists(int index, string name)
    {
       this.artists[index] = name;
